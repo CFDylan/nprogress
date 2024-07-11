@@ -1,6 +1,3 @@
-/* NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
- * @license MIT */
-
 ;(function(root, factory) {
 
   if (typeof define === 'function' && define.amd) {
@@ -71,8 +68,6 @@
         speed    = Settings.speed,
         ease     = Settings.easing;
 
-    progress.offsetWidth; /* Repaint */
-
     queue(function(next) {
       // Set positionUsing if it hasn't already been set
       if (Settings.positionUsing === '') Settings.positionUsing = NProgress.getPositioningCSS();
@@ -86,7 +81,6 @@
           transition: 'none',
           opacity: 1
         });
-        progress.offsetWidth; /* Repaint */
 
         setTimeout(function() {
           css(progress, {
