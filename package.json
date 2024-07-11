@@ -2,7 +2,7 @@
   "name": "dylan-nprogress",
   "author": "dylan",
   "description": "Simple slim progress bars fork from https://github.com/rstacruz/nprogress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/CFDylan/nprogress"
