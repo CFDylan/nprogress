@@ -11,5 +11,5 @@ Do something to optimize performance.
 Keep all apis unchanged.
 
 ```shell
-$ npm install --save @dylan/nprogress
+$ npm install --save dylan-nprogress
 ```
